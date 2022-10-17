@@ -1,0 +1,17 @@
+{
+  "name": "my-project",
+  "source": "src/index.html",
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build"
+  },
+  "devDependencies": {
+    "parcel": "^2.7.0"
+  },
+  "prettier": {
+    "tabWidth": 2,
+    "printWidth": 80,
+    "singleQuote": true,
+    "semi": false
+  }
+}
