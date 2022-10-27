@@ -21,39 +21,33 @@ img {
 }
 /* reseter end */
 
-.inline-block {
-  display: inline-block;
-}
-
 #root {
   direction: rtl;
   font-family: Verdana, sans-serif;
   font-size: 13px;
   color: #364043;
   margin: 10px;
-
-  max-width: 750px;
+  max-width: 580px;
   min-width: 260px;
 }
 
 .block-left,
 .block-right {
   display: inline-block;
-  vertical-align: top;
   direction: ltr;
-}
-
-.block-right {
-  min-width: 56%;
   max-width: 100%;
   width: calc((480px - 100%) * 480);
 }
 
 .block-left {
-  min-width: 40%;
-  max-width: 100%;
-  width: calc((480px - 100%) * 480);
+  min-width: 33%;
   margin-right: 10px;
+  vertical-align: bottom;
+}
+
+.block-right {
+  vertical-align: top;
+  min-width: 64%;
 }
 
 h1 {
@@ -74,16 +68,10 @@ h2 {
   text-decoration-color: #438094; */
 }
 
-.illustration {
-  width: 100%;
-  max-width: 290px;
-  margin: 0 auto;
-  display: block;
-}
-
 .logo {
+  height: auto;
   display: block;
-  max-width: 130px;
+  max-width: 150px;
   margin-left: auto;
 }
 
@@ -95,6 +83,8 @@ h2 {
 }
 
 .coordonnees p {
+  margin: 0;
+  padding: 0;
   direction: ltr;
   display: inline-block;
   line-height: 16px;
@@ -102,6 +92,8 @@ h2 {
 }
 
 .icon {
+  height: auto;
+  max-width: 100%;
   display: inline-block;
   width: 16px;
   margin-right: 5px;
@@ -109,12 +101,21 @@ h2 {
 }
 
 .services {
+  margin: 0;
+  padding: 0;
   color: #438094;
   font-size: 11px;
   font-weight: bold;
-  text-align: right;
+  text-align: left;
   margin-top: 18px;
-  margin-left: auto;
-  max-width: 370px;
   line-height: 16px;
+}
+
+.illustration {
+  height: auto;
+  width: 100%;
+  max-width: 290px;
+  margin: 0 auto;
+  margin-top: auto;
+  display: block;
 }
